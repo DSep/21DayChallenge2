@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="70a05920-9541-4b97-9333-c4ba883762f0" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/Day7.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day7.js" beforeDir="false" afterPath="$PROJECT_DIR$/Day7.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,12 +16,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Day6.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day6.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="720">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
@@ -29,8 +29,8 @@
       <file leaf-file-name="Day7.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day7.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="639">
+              <caret line="55" selection-start-line="55" selection-end-line="55" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -115,19 +115,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Node.js.Day7.js">
+  <component name="RunManager" selected="Node.js.Day8.js">
     <configuration name="Day1.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="Day1.js" working-dir="$PROJECT_DIR$" />
     <configuration name="Day5.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="Day5.js" working-dir="$PROJECT_DIR$" />
     <configuration name="Day6.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="Day6.js" working-dir="$PROJECT_DIR$" />
     <configuration name="Day7.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="Day7.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="Day8.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" nameIsGenerated="true" path-to-js-file="Day8.js" working-dir="$PROJECT_DIR$" />
     <list>
       <item itemvalue="Node.js.Day1.js" />
       <item itemvalue="Node.js.Day6.js" />
       <item itemvalue="Node.js.Day5.js" />
       <item itemvalue="Node.js.Day7.js" />
+      <item itemvalue="Node.js.Day8.js" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.Day8.js" />
         <item itemvalue="Node.js.Day7.js" />
         <item itemvalue="Node.js.Day5.js" />
         <item itemvalue="Node.js.Day6.js" />
@@ -147,7 +150,9 @@
       <updated>1538378400826</updated>
       <workItem from="1538378403437" duration="419000" />
       <workItem from="1538896539518" duration="753000" />
-      <workItem from="1539012882188" duration="349000" />
+      <workItem from="1539012882188" duration="375000" />
+      <workItem from="1539034814987" duration="55000" />
+      <workItem from="1539034898215" duration="92000" />
     </task>
     <task id="LOCAL-00001" summary="Solved the first challenge!">
       <created>1538378787011</created>
@@ -163,11 +168,18 @@
       <option name="project" value="LOCAL" />
       <updated>1538897305472</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Completed Day 7">
+      <created>1539015091944</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1539015091944</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1521000" />
+    <option name="totallyTimeSpent" value="1694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -177,7 +189,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32860824" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32860824" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3298969" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
@@ -201,9 +213,38 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Solved the first challenge!" />
     <MESSAGE value="Completed Day 4, 5, 6." />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Day 4, 5, 6." />
+    <MESSAGE value="Completed Day 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Day 7" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Day6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day7.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="25" lean-forward="true" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day7.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Day1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -234,15 +275,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day6.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="720">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day7.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="639">
+          <caret line="55" selection-start-line="55" selection-end-line="55" selection-end-column="29" />
         </state>
       </provider>
     </entry>
