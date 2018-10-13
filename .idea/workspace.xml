@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70a05920-9541-4b97-9333-c4ba883762f0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day7.js" beforeDir="false" afterPath="$PROJECT_DIR$/Day7.js" afterDir="false" />
-    </list>
+    <list default="true" id="70a05920-9541-4b97-9333-c4ba883762f0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -26,11 +23,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Day7.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Day7.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day7.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="639">
-              <caret line="55" selection-start-line="55" selection-end-line="55" selection-end-column="29" />
+              <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Day8.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day8.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="639">
+              <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -55,6 +61,7 @@
         <option value="$PROJECT_DIR$/Day4.js" />
         <option value="$PROJECT_DIR$/Day6.js" />
         <option value="$PROJECT_DIR$/Day7.js" />
+        <option value="$PROJECT_DIR$/Day8.js" />
       </list>
     </option>
   </component>
@@ -153,6 +160,7 @@
       <workItem from="1539012882188" duration="375000" />
       <workItem from="1539034814987" duration="55000" />
       <workItem from="1539034898215" duration="92000" />
+      <workItem from="1539069768719" duration="292000" />
     </task>
     <task id="LOCAL-00001" summary="Solved the first challenge!">
       <created>1538378787011</created>
@@ -175,11 +183,18 @@
       <option name="project" value="LOCAL" />
       <updated>1539015091944</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Completed Day 8">
+      <created>1539069955146</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1539069955146</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1694000" />
+    <option name="totallyTimeSpent" value="1986000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
@@ -214,9 +229,24 @@
     <MESSAGE value="Solved the first challenge!" />
     <MESSAGE value="Completed Day 4, 5, 6." />
     <MESSAGE value="Completed Day 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Day 7" />
+    <MESSAGE value="Completed Day 8" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Day 8" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Day6.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day7.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" selection-start-line="55" selection-end-line="55" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Day6.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="720">
@@ -283,7 +313,14 @@
     <entry file="file://$PROJECT_DIR$/Day7.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="639">
-          <caret line="55" selection-start-line="55" selection-end-line="55" selection-end-column="29" />
+          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day8.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="57" column="25" selection-start-line="57" selection-start-column="25" selection-end-line="57" selection-end-column="25" />
         </state>
       </provider>
     </entry>
