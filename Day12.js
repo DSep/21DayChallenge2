@@ -12,7 +12,7 @@ const GRID = [
 ];
 
 /*
-Write a function named lightRow() that takes in the number of the row and returns its contents. (Example: lightRow(2); would return ["", "", "v", "", "~", "", "", "", "", ""])
+Write a function called lightColumn() that takes in the letter of the column from the grid, and returns an array that is the contents of that grid column. (Ex: lightColumn('C'); would return ["", "v", "", "", "", "", "", "~", "", ""])
 */
 
 function countColumns() {
@@ -32,18 +32,29 @@ function totalCells() {
 }
 
 function convertColumn(str) {
-    return str.charCodeAt(0) - 65;
+    let ans =  str.charCodeAt(0) - 65;
+    if (ans >= countColumns() || ans < 0) return false;
+    return ans;
 }
 
 function convertRow(str) {
-    return parseInt(str[1], 10) - 1;
+  let ans;
+  if (str.length == 3) {
+    ans =  parseInt(str[1] + str[2], 10) - 1;
+  } else if (str.length == 2){
+    ans = parseInt(str[1], 10) - 1;
+  }
+  if (ans >= countRows() || ans < 0) return false;
+  return ans;
 }
 
 function lightCell(str) {
-    let column = convertColumn(str);
-    let row  = convertRow(str);
-    let contents = GRID[row][column];
-    return contents;
+  if (str.length > 3 || str.length < 2) return false;
+  let column = convertColumn(str);
+  let row  = convertRow(str);
+  if (column === false || row === false) return false;
+  let contents = GRID[row][column];
+  return contents;
 }
 
 function isRock(str) {
@@ -62,6 +73,16 @@ function lightRow(row) {
   row--;
   let rowContents = GRID[row];
   return rowContents;
+}
+
+function lightColumn(col) {
+  let column = convertColumn(col);
+  let colContents = [];
+  let numCols = countColumns();
+  for (var i = 0; i < 10; i++) {
+    colContents.push(GRID[i][column]);
+  }
+  return colContents;
 }
 
 console.log();

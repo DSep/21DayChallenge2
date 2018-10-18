@@ -12,7 +12,7 @@ const GRID = [
 ];
 
 /*
-Write a function named lightRow() that takes in the number of the row and returns its contents. (Example: lightRow(2); would return ["", "", "v", "", "~", "", "", "", "", ""])
+Write a function called lightColumn() that takes in the letter of the column from the grid, and returns an array that is the contents of that grid column. (Ex: lightColumn('C'); would return ["", "v", "", "", "", "", "", "~", "", ""])
 */
 
 function countColumns() {
@@ -62,6 +62,16 @@ function lightRow(row) {
   row--;
   let rowContents = GRID[row];
   return rowContents;
+}
+
+function lightColumn(col) {
+  let column = convertColumn(col);
+  let colContents = [];
+  let numCols = countColumns();
+  for (var i = 0; i < 10; i++) { // Couldnt do it with numCols
+    colContents.push(GRID[i][column]);
+  }
+  return colContents;
 }
 
 console.log();
